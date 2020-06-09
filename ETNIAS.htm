@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="es-gt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>TRADICIONES</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button1B1.jpg', /*url*/'button1C.jpg')" background="../fotos/Colores%20etnicos.jpg">
+
+<p><a href="menu.htm">
+<img border="0" id="img1" src="button1A1.jpg" height="20" width="100" alt="INICIO" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1B1.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1A1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1C.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1B1.jpg')" fp-style="fp-btn: Glass Capsule 1; fp-font-color-hover: #FF0000; fp-font-color-press: #FFFF00" fp-title="INICIO"></a></p>
+<p align="center"><b><font face="Cooper Black" size="6">TRADICIONES DE GUATEMALA</font></b></p>
+<table border="1" width="36%" height="322">
+	<tr>
+		<td align="left" valign="top">
+		<p align="justify">
+		<span style="box-sizing: border-box; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; line-height: inherit; font-family: Cooper Black; vertical-align: baseline; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; border: 0px none rgb(226, 226, 226); margin: 0px; padding: 0px">
+		<font size="4">Las
+		<a href="https://elperiodico.com.gt/especiales-guatemala/2019/11/06/tradiciones-de-guatemala/">
+		tradiciones</a> y costumbres de Guatemala son el resultado de una 
+		extensa tradición cultural que se extiende desde los mayas hasta la 
+		actualidad.&nbsp;Influenciadas por la colonización hispánica, la religión 
+		católica e incluso la actividad política, sus expresiones son muchas y 
+		variadas. En toda la geografía del país, existen fiestas patronales, 
+		danzas, ferias, cofradías y ritos producto de una fusión entre la 
+		tradición religiosa y mística, ejemplos: Semana Santa, Bajada del cristo 
+		negro de Esquipulas, Le quema del torito,&nbsp; los barriletes gigantes, 
+		Danza de los moros, posadas, etc</font></span></p>
+		<p>&nbsp;</td>
+	</tr>
+</table>
+<div style="position: absolute; width: 308px; height: 265px; z-index: 3; left: 762px; top: 107px" id="layer3">
+	<img border="0" src="../fotos/barriletes.jpg" width="346" height="345"></div>
+<div style="position: absolute; width: 720px; height: 356px; z-index: 2; left: 1410px; top: 492px" id="layer2">
+&nbsp;</div>
+<p><font face="Cooper Black" size="4">&nbsp; </font></p>
+<div style="position: absolute; width: 333px; height: 254px; z-index: 1; left: 414px; top: 85px" id="layer1">
+	<p align="center">
+	<embed width="271" height="228" src="../fotos/tradiciones.mp4"></div>
+
+</body>
+
+</html>
